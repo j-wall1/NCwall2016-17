@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2017, 7:54:22 PM
+    Author     : johnw
+*/
+
+#Border{
+    border: 1px solid black;
+    margin-left: 2.3px;
+    margin-right: 2.5px;
+    height: auto;
+    width: 95%;    
+    position: relative;
+    
+}
+
+#text{
+    position: static;
+    left: 0;
+    right: 0;
+    
+}
+
+#SplitHeart{
+    margin-left: 10px;
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    
+}
+
+#Title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    font-family: "arial";
+    margin-bottom: 5px;
+    
+}
+
+#paragraph{
+    text-align: center;
+    font-size: 17px;
+}
+
+#Red{
+    color: red;
+    display: inline;
+}
+
+#WholeHeart{
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+#item{
+    position: static;
+    text-align: center;
+    font-size: 17px;
+}
+
+#item2{
+    position: static;
+    text-align: center;
+    font-size: 17px;
+}
+
+#handling{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Shop{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+#Morganimage{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Contact{
+    font-size: 26px;
+    text-align: center;
+    position: static;
+    max-width: 100%;
+}
+
+#address{
+    font-size: 18px;
+    text-align: center;
+    position: static;
+    max-width: 100%;
+}
