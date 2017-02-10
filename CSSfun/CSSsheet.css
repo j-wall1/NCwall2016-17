@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 9:15:44 PM
+    Author     : johnw
+*/
+
+body{
+    background: radial-gradient(orange, yellow, black);
+    background-size: 100% auto;
+}
+
+#box{
+    border-top-style: double;
+    border-top-width: 10px;
+    border-bottom-style: double;
+    border-bottom-width: 10px;
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-left-style: solid;
+    border-left-width: 10px; 
+    border-color: red;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#intro{
+    
+    text-align: center;
+    font: 50px bold larger;
+    text-orientation: mixed;
+    color: red;
+    text-shadow: 3px 2px black;
+}
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
